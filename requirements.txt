@@ -1,0 +1,5 @@
+# Versions verified in the original working conda environment.
+faster-whisper==1.1.0
+ctranslate2==4.5.0
+huggingface-hub==1.8.0
+tqdm==4.67.1

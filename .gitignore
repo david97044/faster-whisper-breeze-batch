@@ -1,0 +1,31 @@
+# Input media
+Videos/*
+!Videos/.gitkeep
+
+# Generated transcripts
+SRT/*
+!SRT/.gitkeep
+TEXTONLY/*
+!TEXTONLY/.gitkeep
+
+# Locally downloaded models
+models/
+
+# Media accidentally placed outside Videos/
+*.mp4
+*.mkv
+*.m4a
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Secrets and local settings
+.env
+.env.*
+*.log
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
